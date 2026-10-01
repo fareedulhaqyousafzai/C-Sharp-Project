@@ -38,4 +38,5 @@ using Project;
 //Ternary_Operator.oddEven();
 //If.EvenCheck();
 //If_else.agecheck();
-If_else_If.PercentageCalculator();
+//If_else_If.PercentageCalculator();
+Switch.AlphabetBook();
