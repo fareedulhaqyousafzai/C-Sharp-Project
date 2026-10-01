@@ -39,4 +39,5 @@ using Project;
 //If.EvenCheck();
 //If_else.agecheck();
 //If_else_If.PercentageCalculator();
-Switch.AlphabetBook();
+//Switch.AlphabetBook();
+Loop.ForLoop();
