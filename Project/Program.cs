@@ -44,4 +44,6 @@ using Project;
 //Table.PrintTable();
 //Factorail.CalculateFactorial();
 //Loops.WhileLoop();
-Loops.DoWhileLoop();
+//Loops.DoWhileLoop();
+//Loops.NestedLoops();
+Project.Array.ArrayExample();

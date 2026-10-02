@@ -75,12 +75,31 @@ namespace Project
                 Console.WriteLine("PAKISTAN");
                 num++;
             }
-            while (num<10);
-                Console.WriteLine("welcome");
-            }
-
-
+            while (num < 10);
+            Console.WriteLine("welcome");
         }
-    
+
+        internal static void NestedLoops()
+        {
+          
+            for (int i = 1; i <= 5; i++)
+            {
+               
+                for (int j = 1; j <= 6-i; j++)
+                {
+                    if(i % 2 != 0)
+                    {
+                        Console.Write(j);
+                    }
+                    else
+                    {
+                        Console.Write(6-j);
+                    }
+                }
+                Console.WriteLine();
+            }
+        }
+
+    }
 }
 
