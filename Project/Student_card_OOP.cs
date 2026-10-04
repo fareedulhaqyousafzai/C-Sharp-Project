@@ -8,7 +8,6 @@ namespace Project
     {
         string name;
         int rollNumber;
-        string studentClass;
         internal void getdata()
         {
             Console.WriteLine("Enter Student Name:");
