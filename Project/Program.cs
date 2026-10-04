@@ -47,11 +47,20 @@ using Project;
 //Loops.DoWhileLoop();
 //Loops.NestedLoops();
 //Project.Array.ArrayExample();
-Console.WriteLine("Enter Student 1 Details:");
-Student_card_OOP Student_1 = new Student_card_OOP();
-Student_1.getdata();
-Student_1.displaydata();
-Console.WriteLine("Enter Student 2 Details:");
-Student_card_OOP Student_2 = new Student_card_OOP();
-Student_2.getdata();
-Student_2.displaydata();
+
+Student_card_OOP[] obj = new Student_card_OOP[5];
+for (int i = 0; i < obj.Length; i++)
+{
+    Console.WriteLine($"\n--- Enter Details for Student {i + 1} ---");
+    obj[i] = new Student_card_OOP();
+    obj[i].getdata();
+}
+Console.WriteLine("\n=======================");
+Console.WriteLine(" All Student Details   ");
+Console.WriteLine("=======================");
+
+foreach (Student_card_OOP student in obj)
+{
+    student.displaydata();
+    Console.WriteLine("-----------------------"); 
+}
