@@ -9,15 +9,22 @@ namespace Project
 
         string studentname;
         int studentid;
-        //public Constructor()
-        //{
-        //    Console.WriteLine("Constructor called");
-        //}
+        int  age;
+        public Constructor()
+        {
+            Console.WriteLine("Constructor called");
+        }
 
         public Constructor(string name, int id)
         {
             this.studentname = name;
             this. studentid = id;
+        }
+        public Constructor(string name, int id,int age)
+        {
+            this.studentname = name;
+            this.studentid = id;
+            this.age = age;
         }
 
         public void ShowData()
