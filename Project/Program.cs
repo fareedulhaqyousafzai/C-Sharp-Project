@@ -1,5 +1,4 @@
-﻿
-using Project;
+﻿using Project;
 
 //DataTypes.PrimativeDataTypes();
 //DataTypes.derivedDataTypes();
@@ -66,3 +65,7 @@ using Project;
 //    student.displaydata();
 //    Console.WriteLine("-----------------------"); 
 //}
+
+Constructor obj = new Constructor("Fareed", 1);
+obj.ShowData();
+
