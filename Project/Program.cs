@@ -66,6 +66,13 @@
 //    Console.WriteLine("-----------------------"); 
 //}
 
-Constructor obj = new Constructor("Fareed", 1);
-obj.ShowData();
+
+Constructor obj1 = new Constructor();
+
+
+Constructor obj2 = new Constructor("Ali", 101);
+obj2.ShowData();
+
+Constructor obj3 = new Constructor("Fareed", 102, 24);
+obj3.ShowData();
 

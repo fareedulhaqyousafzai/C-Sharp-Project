@@ -12,7 +12,7 @@ namespace Project
         int  age;
         public Constructor()
         {
-            Console.WriteLine("Constructor called");
+            Console.WriteLine("Default Constructor");
         }
 
         public Constructor(string name, int id)
@@ -29,7 +29,7 @@ namespace Project
 
         public void ShowData()
         {
-            Console.WriteLine($"Student Name: {this.studentname}, ID: {this.studentid}");
+            Console.WriteLine($"Student Name: {this.studentname}, ID: {this.studentid}, Age: {this.age}");
         }
 
 
