@@ -3,7 +3,7 @@ using Project;
 
 //DataTypes.PrimativeDataTypes();
 //DataTypes.derivedDataTypes();
-//Type_Conversion.type_conversion_fun();
+//DataTypeConversion.DataTypeConversion_fun();
 //NewFuncation obj = new NewFuncation();
 //obj.getdata();
 //obj.add();
