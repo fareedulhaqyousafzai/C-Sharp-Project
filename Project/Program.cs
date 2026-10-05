@@ -1,6 +1,9 @@
 ﻿
 using Project;
 
+//DataTypes.PrimativeDataTypes();
+//DataTypes.derivedDataTypes();
+//Type_Conversion.type_conversion_fun();
 //NewFuncation obj = new NewFuncation();
 //obj.getdata();
 //obj.add();
@@ -24,8 +27,7 @@ using Project;
 
 //BoxingExample.Boxing();
 //BoxingExample.UnBoxing();
-//DataTypes.PrimativeDataTypes();
-//DataTypes.derivedDataTypes();
+
 
 //Unary_Operators.PostIncrement();
 //Unary_Operators.PreIncrement();
@@ -48,19 +50,19 @@ using Project;
 //Loops.NestedLoops();
 //Project.Array.ArrayExample();
 
-Student_card_OOP[] obj = new Student_card_OOP[5];
-for (int i = 0; i < obj.Length; i++)
-{
-    Console.WriteLine($"\n--- Enter Details for Student {i + 1} ---");
-    obj[i] = new Student_card_OOP();
-    obj[i].getdata();
-}
-Console.WriteLine("\n=======================");
-Console.WriteLine(" All Student Details   ");
-Console.WriteLine("=======================");
+//Student_card_OOP[] obj = new Student_card_OOP[5];
+//for (int i = 0; i < obj.Length; i++)
+//{
+//    Console.WriteLine($"\n--- Enter Details for Student {i + 1} ---");
+//    obj[i] = new Student_card_OOP();
+//    obj[i].getdata();
+//}
+//Console.WriteLine("\n=======================");
+//Console.WriteLine(" All Student Details   ");
+//Console.WriteLine("=======================");
 
-foreach (Student_card_OOP student in obj)
-{
-    student.displaydata();
-    Console.WriteLine("-----------------------"); 
-}
+//foreach (Student_card_OOP student in obj)
+//{
+//    student.displaydata();
+//    Console.WriteLine("-----------------------"); 
+//}
