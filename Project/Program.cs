@@ -67,12 +67,20 @@
 //}
 
 
-Constructor obj1 = new Constructor();
+//Constructor obj1 = new Constructor();
 
 
-Constructor obj2 = new Constructor("Ali", 101);
-obj2.ShowData();
+//Constructor obj2 = new Constructor("Ali", 101);
+//obj2.ShowData();
 
-Constructor obj3 = new Constructor("Fareed", 102, 24);
-obj3.ShowData();
+//Constructor obj3 = new Constructor("Fareed", 102, 24);
+//obj3.ShowData();
+
+//Constructor copy_obj3 = new Constructor(obj3);
+//copy_obj3.ShowData();
+
+//Constructor.Example.GetTime();
+//Constructor.Example.a = 20;
+//Console.WriteLine(Constructor.Example.Incerement());
+
 
