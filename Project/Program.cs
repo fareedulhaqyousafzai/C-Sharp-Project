@@ -1,4 +1,5 @@
 ﻿using Project;
+using System.ComponentModel;
 
 //DataTypes.PrimativeDataTypes();
 //DataTypes.derivedDataTypes();
@@ -82,5 +83,22 @@
 //Constructor.Example.GetTime();
 //Constructor.Example.a = 20;
 //Console.WriteLine(Constructor.Example.Incerement());
+
+//Properties obj = new Properties();
+//obj.StudentId = 101;
+//obj.StudentName = "Nazeer";
+
+//Console.WriteLine($"Student ID: {obj.StudentId}, Student Name: {obj.StudentName}");
+
+//PropertieTypes obj2 = new PropertieTypes();
+//obj2.Id = 101;
+//obj2.Name= "Fareed";
+
+
+//Console.WriteLine($"Student ID: {obj2.Id}, Student Name: {obj2.Name}");
+
+PropertieTypes s = new PropertieTypes(102, "Ali");
+
+Console.WriteLine($"Student ID: {s.Id}, Student Name: {s.Name}");
 
 
