@@ -97,8 +97,14 @@ using System.ComponentModel;
 
 //Console.WriteLine($"Student ID: {obj2.Id}, Student Name: {obj2.Name}");
 
-PropertieTypes s = new PropertieTypes(102, "Ali");
+//PropertieTypes s = new PropertieTypes(102, "Ali");
 
-Console.WriteLine($"Student ID: {s.Id}, Student Name: {s.Name}");
+//Console.WriteLine($"Student ID: {s.Id}, Student Name: {s.Name}");
+
+Encapsulation p = new Encapsulation();
+p.SetId(1258119);
+p.GetId();
+p.SetName("Fareed");
+p.GetName();
 
 
