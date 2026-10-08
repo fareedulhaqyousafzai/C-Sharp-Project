@@ -3,6 +3,7 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using static Project.Inheritance;
 using static Project.InheritanceTypes;
+using static Project.Polymorphism_Dynamic;
 
 //DataTypes.PrimativeDataTypes();
 //DataTypes.derivedDataTypes();
@@ -153,15 +154,21 @@ using static Project.InheritanceTypes;
 //Console.WriteLine("Contract Employee Details");
 //Console.WriteLine($"Employee Name is :{Nazeer.EmpName}, Employee ID is:{Nazeer.Empid},Employee Salary is:{Nazeer.ContractEmpSalary}");
 
-Manager m1 = new Manager();
+//Manager m1 = new Manager();
 
-m1.Name = "Fareed";
-m1.EmployeeId = 1250;
-m1.DepartmentName = "IT Department";
+//m1.Name = "Fareed";
+//m1.EmployeeId = 1250;
+//m1.DepartmentName = "IT Department";
 
-Console.WriteLine($"Name: {m1.Name}, ID: {m1.EmployeeId}, Dept: {m1.DepartmentName}");
+//Console.WriteLine($"Name: {m1.Name}, ID: {m1.EmployeeId}, Dept: {m1.DepartmentName}");
 
 
-m1.Eat();        
-m1.Work();
-m1.ManageTeam();
+//m1.Eat();        
+//m1.Work();
+//m1.ManageTeam();
+
+Parent obj = new Child();
+obj.Print();
+
+Par obj2 = new Chil();
+obj.Print();
