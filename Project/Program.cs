@@ -101,10 +101,14 @@ using System.ComponentModel;
 
 //Console.WriteLine($"Student ID: {s.Id}, Student Name: {s.Name}");
 
-Encapsulation p = new Encapsulation();
-p.SetId(1258119);
-p.GetId();
-p.SetName("Fareed");
-p.GetName();
+//Encapsulation p = new Encapsulation();
+//p.SetId(1258119);
+//p.GetId();
+//p.SetName("Fareed");
+//p.GetName();
 
-
+Polymorphism_Static obj = new Polymorphism_Static();
+obj.Add();
+obj.Add(15, 25);
+obj.Add(10,20,30);
+obj.Add("Fareed", "Khan");
