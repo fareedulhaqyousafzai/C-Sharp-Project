@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using static Project.Inheritance;
+using static Project.InheritanceTypes;
 
 //DataTypes.PrimativeDataTypes();
 //DataTypes.derivedDataTypes();
@@ -115,18 +116,52 @@ using static Project.Inheritance;
 //obj.Add(10,20,30);
 //obj.Add("Fareed", "Khan");
 
-PermanentEmployee Fareed = new PermanentEmployee();
-Fareed.EmpName="Fareed";
-Fareed.Empid=1250;
-Fareed.PermanentEmpSalary = 60000;
+//PermanentEmployee Fareed = new PermanentEmployee();
+//Fareed.EmpName="Fareed";
+//Fareed.Empid=1250;
+//Fareed.PermanentEmpSalary = 60000;
 
-Console.WriteLine("Permanent Employee Details");
-Console.WriteLine($"Employee Name is :{Fareed.EmpName}, Employee ID is:{Fareed.Empid},Employee Salary is:{Fareed.PermanentEmpSalary}");
+//Console.WriteLine("Permanent Employee Details");
+//Console.WriteLine($"Employee Name is :{Fareed.EmpName}, Employee ID is:{Fareed.Empid},Employee Salary is:{Fareed.PermanentEmpSalary}");
 
-ContractEmployee Nazeer = new ContractEmployee();
-Nazeer.EmpName = "Nazeer";
-Nazeer.Empid =1234;
-Nazeer.ContractEmpSalary = 40000;
+//ContractEmployee Nazeer = new ContractEmployee();
+//Nazeer.EmpName = "Nazeer";
+//Nazeer.Empid =1234;
+//Nazeer.ContractEmpSalary = 40000;
 
-Console.WriteLine("Contract Employee Details");
-Console.WriteLine($"Employee Name is :{Nazeer.EmpName}, Employee ID is:{Nazeer.Empid},Employee Salary is:{Nazeer.ContractEmpSalary}");
+//Console.WriteLine("Contract Employee Details");
+//Console.WriteLine($"Employee Name is :{Nazeer.EmpName}, Employee ID is:{Nazeer.Empid},Employee Salary is:{Nazeer.ContractEmpSalary}");
+
+//DerivedClass obj = new DerivedClass();
+//obj.Show();
+//obj.show2();
+
+
+//NewPermanentEmployee Fareed = new NewPermanentEmployee();
+//Fareed.EmpName = "Fareed";
+//Fareed.Empid = 1250;
+//Fareed.PermanentEmpSalary = 60000;
+
+//Console.WriteLine("Permanent Employee Details");
+//Console.WriteLine($"Employee Name is :{Fareed.EmpName}, Employee ID is:{Fareed.Empid},Employee Salary is:{Fareed.PermanentEmpSalary}");
+
+//NewContractEmployee Nazeer = new NewContractEmployee();
+//Nazeer.EmpName = "Nazeer";
+//Nazeer.Empid = 1234;
+//Nazeer.ContractEmpSalary = 40000;
+
+//Console.WriteLine("Contract Employee Details");
+//Console.WriteLine($"Employee Name is :{Nazeer.EmpName}, Employee ID is:{Nazeer.Empid},Employee Salary is:{Nazeer.ContractEmpSalary}");
+
+Manager m1 = new Manager();
+
+m1.Name = "Fareed";
+m1.EmployeeId = 1250;
+m1.DepartmentName = "IT Department";
+
+Console.WriteLine($"Name: {m1.Name}, ID: {m1.EmployeeId}, Dept: {m1.DepartmentName}");
+
+
+m1.Eat();        
+m1.Work();
+m1.ManageTeam();
