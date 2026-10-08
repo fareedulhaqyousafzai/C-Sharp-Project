@@ -1,5 +1,7 @@
 ﻿using Project;
 using System.ComponentModel;
+using System.Runtime.CompilerServices;
+using static Project.Inheritance;
 
 //DataTypes.PrimativeDataTypes();
 //DataTypes.derivedDataTypes();
@@ -107,8 +109,24 @@ using System.ComponentModel;
 //p.SetName("Fareed");
 //p.GetName();
 
-Polymorphism_Static obj = new Polymorphism_Static();
-obj.Add();
-obj.Add(15, 25);
-obj.Add(10,20,30);
-obj.Add("Fareed", "Khan");
+//Polymorphism_Static obj = new Polymorphism_Static();
+//obj.Add();
+//obj.Add(15, 25);
+//obj.Add(10,20,30);
+//obj.Add("Fareed", "Khan");
+
+PermanentEmployee Fareed = new PermanentEmployee();
+Fareed.EmpName="Fareed";
+Fareed.Empid=1250;
+Fareed.PermanentEmpSalary = 60000;
+
+Console.WriteLine("Permanent Employee Details");
+Console.WriteLine($"Employee Name is :{Fareed.EmpName}, Employee ID is:{Fareed.Empid},Employee Salary is:{Fareed.PermanentEmpSalary}");
+
+ContractEmployee Nazeer = new ContractEmployee();
+Nazeer.EmpName = "Nazeer";
+Nazeer.Empid =1234;
+Nazeer.ContractEmpSalary = 40000;
+
+Console.WriteLine("Contract Employee Details");
+Console.WriteLine($"Employee Name is :{Nazeer.EmpName}, Employee ID is:{Nazeer.Empid},Employee Salary is:{Nazeer.ContractEmpSalary}");
