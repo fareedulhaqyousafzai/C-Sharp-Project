@@ -167,8 +167,14 @@ using static Project.Polymorphism_Dynamic;
 //m1.Work();
 //m1.ManageTeam();
 
-Parent obj = new Child();
-obj.Print();
+//Parent obj = new Child();
+//obj.Print();
 
-Par obj2 = new Chil();
-obj.Print();
+//Par obj2 = new Chil();
+//obj.Print();
+
+Employeee fareed = new Employeee(1250, "Fareed", 50000);
+fareed.ShowEmployeeDetails(); 
+
+Employeee nazeer = new Employeee(1234, "Nazeer", 35000);
+nazeer.ShowEmployeeDetails(); 
