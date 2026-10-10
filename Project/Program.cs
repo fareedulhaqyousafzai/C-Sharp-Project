@@ -178,6 +178,9 @@ using static Project.Polymorphism_Dynamic;
 
 //Employeee nazeer = new Employeee(1234, "Nazeer", 35000);
 //nazeer.ShowEmployeeDetails(); 
+//nazeer.ShowEmployeeDetails(); 
+
+
 
 student nazeer = new student();
 nazeer.firstName = "Nazeer";
