@@ -182,22 +182,25 @@ using static Project.Polymorphism_Dynamic;
 
 
 
-student nazeer = new student();
-nazeer.firstName = "Nazeer";
-nazeer.lastName = "Ahmed";
-nazeer.age = 12;
-nazeer.phoneNumber = "03152503080";
-nazeer.rollNumber = 101;
-nazeer.fees = 2000;
-nazeer.showDetails();
+//student nazeer = new student();
+//nazeer.firstName = "Nazeer";
+//nazeer.lastName = "Ahmed";
+//nazeer.age = 12;
+//nazeer.phoneNumber = "03152503080";
+//nazeer.rollNumber = 101;
+//nazeer.fees = 2000;
+//nazeer.showDetails();
 
-Console.WriteLine("-------------------------------------");
-teacher fareed  = new teacher();
-fareed.firstName = "Fareed";
-fareed.lastName = "Ul Haq";
-fareed.age = 28;
-fareed.phoneNumber = "03444470708";
-fareed.qualification = "DAE";
-fareed.salary = 20000;
-fareed.showDetails();
+//Console.WriteLine("-------------------------------------");
+//teacher fareed  = new teacher();
+//fareed.firstName = "Fareed";
+//fareed.lastName = "Ul Haq";
+//fareed.age = 28;
+//fareed.phoneNumber = "03444470708";
+//fareed.qualification = "DAE";
+//fareed.salary = 20000;
+//fareed.showDetails();
+
+PartTimeEmpolyee obj = new PartTimeEmpolyee();
+obj.Show();
 
