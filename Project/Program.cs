@@ -201,6 +201,9 @@ using static Project.Polymorphism_Dynamic;
 //fareed.salary = 20000;
 //fareed.showDetails();
 
-PartTimeEmpolyee obj = new PartTimeEmpolyee();
-obj.Show();
+//PartTimeEmpolyee obj = new PartTimeEmpolyee();
+//obj.Show();
 
+PartTimeEmpolyeee obj = new PartTimeEmpolyeee();
+IEmployee emp = new PartTimeEmployeee();
+emp.Show();
