@@ -208,8 +208,11 @@ using static Project.Polymorphism_Dynamic;
 //((ICar)obj).Move();
 //((IRobot)obj).Move();
 
-ICar obj = new OptimusPrime();
-obj.Move();
+//ICar obj = new OptimusPrime();
+//obj.Move();
 
-IRobot obj1 = new OptimusPrime();
-obj1.Move();
+//IRobot obj1 = new OptimusPrime();
+//obj1.Move();
+
+Access_Modifier objj = new Access_Modifier();
+objj.CallPrivateShow();
