@@ -204,6 +204,6 @@ using static Project.Polymorphism_Dynamic;
 //PartTimeEmpolyee obj = new PartTimeEmpolyee();
 //obj.Show();
 
-PartTimeEmpolyeee obj = new PartTimeEmpolyeee();
-IEmployee emp = new PartTimeEmployeee();
-emp.Show();
+PartTimeEmployeee obj = new PartTimeEmployeee();
+((IEmployeee)obj).Show();
+((IPersonn)obj).Show();

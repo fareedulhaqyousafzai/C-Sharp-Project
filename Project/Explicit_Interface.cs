@@ -8,12 +8,12 @@ namespace Project
         void Show();
     }
 
-    interface IPerson
+    interface IPersonn
     {
         void Show();
     }
 
-    class PartTimeEmployeee : IEmployeee, IPerson
+    class PartTimeEmployeee : IEmployeee, IPersonn
     {
       
         void IEmployeee.Show()
@@ -22,7 +22,7 @@ namespace Project
         }
 
  
-        void IPerson.Show()
+        void IPersonn.Show()
         {
             Console.WriteLine("This is IPerson's Show method!");
         }
