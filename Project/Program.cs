@@ -204,6 +204,12 @@ using static Project.Polymorphism_Dynamic;
 //PartTimeEmpolyee obj = new PartTimeEmpolyee();
 //obj.Show();
 
-OptimusPrime obj = new OptimusPrime();
-((ICar)obj).Move();
-((IRobot)obj).Move();
+//OptimusPrime obj = new OptimusPrime();
+//((ICar)obj).Move();
+//((IRobot)obj).Move();
+
+ICar obj = new OptimusPrime();
+obj.Move();
+
+IRobot obj1 = new OptimusPrime();
+obj1.Move();
