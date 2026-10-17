@@ -3,28 +3,28 @@
 namespace Project
 {
    
-    interface IEmployeee
+    interface ICar
     {
-        void Show();
+        void Move();
     }
 
-    interface IPersonn
+    interface IRobot
     {
-        void Show();
+        void Move();
     }
 
-    class PartTimeEmployeee : IEmployeee, IPersonn
+    class OptimusPrime : ICar, IRobot
     {
       
-        void IEmployeee.Show()
+        void ICar.Move()
         {
-            Console.WriteLine("This is IEmployee's Show method!");
+            Console.WriteLine("This is ICar's Move method!");
         }
 
  
-        void IPersonn.Show()
+        void IRobot.Move()
         {
-            Console.WriteLine("This is IPerson's Show method!");
+            Console.WriteLine("This is IRobot's Move method!");
         }
     }
 }

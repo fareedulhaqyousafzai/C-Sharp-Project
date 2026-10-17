@@ -204,6 +204,6 @@ using static Project.Polymorphism_Dynamic;
 //PartTimeEmpolyee obj = new PartTimeEmpolyee();
 //obj.Show();
 
-PartTimeEmployeee obj = new PartTimeEmployeee();
-((IEmployeee)obj).Show();
-((IPersonn)obj).Show();
+OptimusPrime obj = new OptimusPrime();
+((ICar)obj).Move();
+((IRobot)obj).Move();
