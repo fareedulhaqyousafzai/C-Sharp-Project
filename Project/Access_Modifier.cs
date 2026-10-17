@@ -7,7 +7,7 @@ namespace Project
 {
     public class Access_Modifier
     {
-        protected void show()
+        internal void show()
         {
             Console.WriteLine("Welcome");
         }
@@ -24,15 +24,15 @@ namespace Project
 
     }
 
-    class pro:Access_Modifier
-    {
-        public void TestProtected()
-        {
-            pro obj= new pro();
-            obj.show(); 
-            this.show(); 
-        }
+    //class pro:Access_Modifier
+    //{
+    //    public void TestProtected()
+    //    {
+    //        pro obj= new pro();
+    //        obj.show(); 
+    //        this.show(); 
+    //    }
 
 
-    }
+    //}
 }
