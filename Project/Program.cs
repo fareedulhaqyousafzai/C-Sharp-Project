@@ -214,5 +214,8 @@ using static Project.Polymorphism_Dynamic;
 //IRobot obj1 = new OptimusPrime();
 //obj1.Move();
 
-Access_Modifier objj = new Access_Modifier();
-objj.CallPrivateShow();
+//Access_Modifier objj = new Access_Modifier();
+//objj.CallPrivateShow();
+
+pro obj = new pro();
+obj.CallPrivateShow();
