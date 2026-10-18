@@ -219,5 +219,9 @@ using static Project.Polymorphism_Dynamic;
 
 //pro obj = new pro();
 //obj.CallPrivateShow();
-Access_Modifier objj = new Access_Modifier();
-objj.CallPrivateShow();
+//Access_Modifier objj = new Access_Modifier();
+//objj.CallPrivateShow();
+
+DerivedClasss obj = new DerivedClasss();
+obj.DerivedShow();
+obj.DerivedShow();
