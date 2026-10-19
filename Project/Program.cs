@@ -222,6 +222,17 @@ using static Project.Polymorphism_Dynamic;
 //Access_Modifier objj = new Access_Modifier();
 //objj.CallPrivateShow();
 
-DerivedClasss obj = new DerivedClasss();
-obj.DerivedShow();
-obj.DerivedShow();
+//DerivedClasss obj = new DerivedClasss();
+//obj.DerivedShow();
+//obj.DerivedShow();
+
+//NewProo Fareed = new NewProo("Fareed",20);
+//Fareed.show();
+
+//StudentNew Basheer = new StudentNew();
+//Basheer.name = "Basheer";
+//Basheer.age = 18;
+//Console.WriteLine($"Name: {Basheer.name}, Age: {Basheer.age}");
+//Console.WriteLine("Name is " + Basheer.name);
+//Console.WriteLine("Name is " + Basheer.age);
+//Console.WriteLine("Name is {0}, Age is {1}",Basheer.name,Basheer.age);
