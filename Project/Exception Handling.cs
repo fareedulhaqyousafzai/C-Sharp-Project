@@ -29,30 +29,6 @@ namespace Project
             Console.WriteLine("Remaining statement 2");
             Console.WriteLine("Remaining statement 3");
         }
-        public static void print()
-        {
-            try
-            {
-                int[] arr = new int[3];
-                arr[0] = 10;
-                arr[1] = 20;
-                arr[2] = 30;
-                arr[3] = 50;
-
-                foreach (int i in arr)
-                {
-                    Console.WriteLine(i);
-                }
-
-            }
-            catch(IndexOutOfRangeException ex)
-            {
-                Console.WriteLine("Array Range is Exceeded");
-            }
-            
-         
-
-
-        }
+       
     }
 }
