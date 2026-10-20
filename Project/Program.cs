@@ -237,4 +237,5 @@ using static Project.Polymorphism_Dynamic;
 //Console.WriteLine("Name is " + Basheer.age);
 //Console.WriteLine("Name is {0}, Age is {1}",Basheer.name,Basheer.age);
 
-Exception_Handling.Run();
+//Exception_Handling.Run();
+Exception_Handling.print();
