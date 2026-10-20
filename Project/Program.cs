@@ -230,9 +230,11 @@ using static Project.Polymorphism_Dynamic;
 //Fareed.show();
 
 //StudentNew Basheer = new StudentNew();
-//Basheer.name = "Basheer";
-//Basheer.age = 18;
+//Basheer.name = "";
+//Basheer.age = 0;
 //Console.WriteLine($"Name: {Basheer.name}, Age: {Basheer.age}");
 //Console.WriteLine("Name is " + Basheer.name);
 //Console.WriteLine("Name is " + Basheer.age);
 //Console.WriteLine("Name is {0}, Age is {1}",Basheer.name,Basheer.age);
+
+Exception_Handling.Run();

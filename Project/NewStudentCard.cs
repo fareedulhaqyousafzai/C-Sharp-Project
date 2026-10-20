@@ -40,7 +40,7 @@ namespace Project
 
             set
             {
-                if (value < 0)
+                if (value <= 0)
                 {
                     Console.WriteLine("Student ID cannot be negative.");
                 }
