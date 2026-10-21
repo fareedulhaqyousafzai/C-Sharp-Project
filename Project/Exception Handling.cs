@@ -142,6 +142,10 @@ namespace Project
             {
                 Console.WriteLine("Null Error: " + ex.Message);
             }
+            finally
+            {
+                Console.WriteLine("Finally block is Executed!!!");
+            }
         }
     }
 
