@@ -85,5 +85,32 @@ namespace Project
         //    }
 
         //}
+
+        public static void show()
+        {
+
+            try
+            {
+
+                //string name = null;
+                //Console.WriteLine(name.Length);
+
+
+                //int[] arr = new int[3];
+                // arr[0] = 10;
+                // arr[1] = 20;
+                // arr[2] = 30;
+                // arr[3] = 50;
+
+                string name = "fareed";
+                int number = int.Parse(name);
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
+
+        }
     }
 }
