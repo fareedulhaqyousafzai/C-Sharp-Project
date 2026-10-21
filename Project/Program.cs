@@ -239,5 +239,6 @@ using static Project.Polymorphism_Dynamic;
 
 //Exception_Handling.Run();
 //Exception_Handling.print();
-Exception_Handling.show();
+//Exception_Handling.show();
 //Exception_Handling.display();
+Exception_Handling.RunMul();

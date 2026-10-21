@@ -110,7 +110,42 @@ namespace Project
             {
                 Console.WriteLine(ex);
             }
+        }
 
+        public static void RunMul()
+        {
+           
+            try
+            {
+                Console.WriteLine("Enter Your First Number");
+                int num1 = int.Parse(Console.ReadLine());
+
+                Console.WriteLine("Enter Your Second Number");
+                int num2 = int.Parse(Console.ReadLine());
+
+                int result = num1 / num2;
+                Console.WriteLine("division is :" + result);
+            }
+            catch (DivideByZeroException ex)
+            {
+                Console.WriteLine("Math Error: " + ex.Message);
+            }
+            catch (IndexOutOfRangeException ex)
+            {
+                Console.WriteLine("Array Error: " + ex.Message);
+            }
+            catch (FormatException ex)
+            {
+                Console.WriteLine("Input Error: " + ex.Message);
+            }
+            catch (NullReferenceException ex)
+            {
+                Console.WriteLine("Null Error: " + ex.Message);
+            }
         }
     }
-}
+
+
+
+    }
+    
