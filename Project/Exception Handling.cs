@@ -29,6 +29,61 @@ namespace Project
             Console.WriteLine("Remaining statement 2");
             Console.WriteLine("Remaining statement 3");
         }
-       
+        public static void print()
+        {
+            try
+            {
+                int[] arr = new int[3];
+                arr[0] = 10;
+                arr[1] = 20;
+                arr[2] = 30;
+                arr[3] = 50;
+
+                foreach (int i in arr)
+                {
+                    Console.WriteLine(i);
+                }
+
+            }
+            catch(IndexOutOfRangeException ex)
+            {
+                Console.WriteLine("Array Range is Exceeded");
+            }
+        }
+
+        public static void display()
+        {
+
+            Console.WriteLine("Enter a Number");
+            string number = Console.ReadLine();
+
+            try
+            {
+                int num =int.Parse(number);
+                Console.WriteLine("number is :"+num);
+
+            }
+            catch (FormatException ex)
+            {
+                Console.WriteLine("String format is Invaild.....");
+            }
+        
+        }
+
+        //public static void show()
+        //{
+
+        //    try
+        //    {
+
+        //        string name =null;
+        //        Console.WriteLine(name.Length);
+        //    }
+        //    catch (NullReferenceException ex)
+        //    {
+        //        Console.WriteLine("Name is Null....");
+        //    }
+
+        //}
     }
 }

@@ -238,4 +238,6 @@ using static Project.Polymorphism_Dynamic;
 //Console.WriteLine("Name is {0}, Age is {1}",Basheer.name,Basheer.age);
 
 //Exception_Handling.Run();
-Exception_Handling.print();
+//Exception_Handling.print();
+//Exception_Handling.show();
+Exception_Handling.display();
