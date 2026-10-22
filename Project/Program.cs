@@ -242,4 +242,4 @@ using static Project.Polymorphism_Dynamic;
 //Exception_Handling.show();
 //Exception_Handling.display();
 //Exception_Handling.RunMul();
-Exception_Throw_Keyword.show();
+//Exception_Throw_Keyword.show();
