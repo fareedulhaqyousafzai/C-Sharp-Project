@@ -244,4 +244,9 @@ using static Project.Polymorphism_Dynamic;
 //Exception_Handling.RunMul();
 //Exception_Throw_Keyword.show();
 File_Handling obj = new File_Handling();
-obj.show();
+obj.creteFile();
+//obj.FileExist();
+//obj.addContentInFile();
+//obj.ReadContentfromFile();
+//obj.deleteFile();
+
