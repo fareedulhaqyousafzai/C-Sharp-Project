@@ -6,5 +6,9 @@ namespace Project
 {
     internal class EVENT_HANDLING
     {
+        internal void show()
+        {
+
+        }
     }
 }
