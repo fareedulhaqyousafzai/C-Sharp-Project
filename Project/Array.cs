@@ -34,6 +34,16 @@ internal static class Array
 
 
     }
-   
+    internal static void ListOfArray()
+    {
+        ArrayList newarraylist = new ArrayList();
+        {
+
+            newarraylist.Add("Fareed");
+            newarraylist.Add(15);
+
+            Console.WriteLine("Name:" + newarraylist[0] + " " + "Age:" + newarraylist[1]);
+        }
+    }
 }
     

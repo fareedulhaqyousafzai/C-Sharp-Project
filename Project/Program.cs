@@ -249,6 +249,6 @@ using static Project.Polymorphism_Dynamic;
 //obj.addContentInFile();
 //obj.ReadContentfromFile();
 //obj.deleteFile();
-Array.ArrayStudentNames();
-//Array.ListOfArray();
+//Array.ArrayStudentNames();
+Array.ListOfArray();
 
