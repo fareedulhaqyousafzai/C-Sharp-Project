@@ -1,24 +1,39 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Project
+internal static class Array
 {
-    internal static class Array
+    internal static void ArrayExample()
     {
-        internal static void ArrayExample()
+        string[] names = { "Fareed", "Ahmed", "Sultan" };
+        Console.WriteLine("Array elements:");
+        for (int i = 0; i < names.Length; i++)
         {
-            string[] names = { "Fareed", "Ahmed", "Sultan" };
-            Console.WriteLine("Array elements:");
-            for(int i = 0; i < names.Length; i++)
-            {
-                Console.WriteLine(names[i]);
-            }
-            Console.WriteLine("For Each Loops:");
-            foreach (string name in names)
-            {
-                Console.WriteLine(name);
-            }
+            Console.WriteLine(names[i]);
         }
+        Console.WriteLine("For Each Loops:");
+        foreach (string name in names)
+        {
+            Console.WriteLine(name);
+        }
+
     }
+    internal static void ArrayStudentNames()
+    {
+        List<string> names = new List<string>();
+        names.Add("Fareed");
+        names.Add("Basheer");
+        names.Add("Nazeer");
+
+        for (int i = 0; i < names.Count; i++)
+        {
+            Console.WriteLine((i + 1) + " " + names[i]);
+        }
+
+
+    }
+   
 }
+    
