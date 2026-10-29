@@ -250,5 +250,6 @@ using static Project.Polymorphism_Dynamic;
 //obj.ReadContentfromFile();
 //obj.deleteFile();
 //Array.ArrayStudentNames();
-Array.ListOfArray();
+//Array.ArrayExp();
+Array.MyArrayList();
 
