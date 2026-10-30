@@ -251,5 +251,5 @@ using static Project.Polymorphism_Dynamic;
 //obj.deleteFile();
 //Array.ArrayStudentNames();
 //Array.ArrayExp();
-Array.MyArrayList();
+//Array.MyArrayList();
 
